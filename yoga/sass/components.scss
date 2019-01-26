@@ -209,16 +209,21 @@ BOX ICON
 		h1, h2, h3, h4, h4, h5, h6{
 			clear: none;
 			margin-bottom: 0;
+			font-family: $font_primary;
+			font-weight: 700;
 		}
 	}
     &.style-2{
     	text-align: center;
     	.icon{
-	    	color: $color_secondary;
+	    	color: $white;
+    	    line-height: 1.7;
 	    	float: none;
 	    	background-color: transparent;
     	    margin: 0 auto;
     	    font-size: 40px;
+    	    background-color: $color_secondary;
+    	    @include border-radius(50%);
 	    }
 	    .body-content{
 			margin-left: 0;

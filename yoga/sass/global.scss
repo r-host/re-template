@@ -206,6 +206,9 @@ strong, b{
 
 /* END OWL */
 
+.font-primary{
+	font-family: $font_primary;
+}
 .bg-primary{
 	background-color: $color_primary !important;
 }
@@ -217,7 +220,7 @@ strong, b{
 }
 
 .bg-gray-light{
-	background-color: #fbfbfb;
+	background-color: #eeeeee;
 }
 
 .text-primary{

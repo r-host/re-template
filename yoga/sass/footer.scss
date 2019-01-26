@@ -169,7 +169,8 @@
 	    padding: 25px 0 10px 0;
 	    font-size: 14px;
 	    border-top: 1px solid darken($color_primary, 20%);
-	    background-color: $color_primary;
+	    background-color: $color_secondary;
+	    text-align: center;
 	}
 
 }
@@ -184,12 +185,16 @@
 		.info-icon {
 		    display: table-cell;
 		    font-size: 35px;
-		    /*color: $color_primary;*/
+		    color: $color_primary;
 		}
 		.info-text{
 			padding-left: 18px;
 			display: table-cell;
 			vertical-align: top;
 		}
+		h1, h2, h3, h4, h5 {
+			font-family: $font_primary;
+			font-weight: 700;
+		} 
 	}
 }

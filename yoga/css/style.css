@@ -570,6 +570,9 @@ strong, b {
   margin-top: 50px; }
 
 /* END OWL */
+.font-primary {
+  font-family: "Ubuntu", sans-serif; }
+
 .bg-primary {
   background-color: #F694C1 !important; }
 
@@ -580,7 +583,7 @@ strong, b {
   background-color: #222222; }
 
 .bg-gray-light {
-  background-color: #fbfbfb; }
+  background-color: #eeeeee; }
 
 .text-primary {
   color: #F694C1 !important; }
@@ -762,15 +765,23 @@ BOX ICON
   margin-left: 85px; }
   .rs-icon-funfact .body-content h1, .rs-icon-funfact .body-content h2, .rs-icon-funfact .body-content h3, .rs-icon-funfact .body-content h4, .rs-icon-funfact .body-content .rs-team-1 .title, .rs-team-1 .rs-icon-funfact .body-content .title, .rs-icon-funfact .body-content h4, .rs-icon-funfact .body-content .rs-team-1 .title, .rs-team-1 .rs-icon-funfact .body-content .title, .rs-icon-funfact .body-content h5, .rs-icon-funfact .body-content h6 {
     clear: none;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700; }
 .rs-icon-funfact.style-2 {
   text-align: center; }
   .rs-icon-funfact.style-2 .icon {
-    color: #222222;
+    color: #fff;
+    line-height: 1.7;
     float: none;
     background-color: transparent;
     margin: 0 auto;
-    font-size: 40px; }
+    font-size: 40px;
+    background-color: #222222;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
   .rs-icon-funfact.style-2 .body-content {
     margin-left: 0; }
 
@@ -1724,7 +1735,8 @@ Back To Top Section
     padding: 25px 0 10px 0;
     font-size: 14px;
     border-top: 1px solid #ee368a;
-    background-color: #F694C1; }
+    background-color: #222222;
+    text-align: center; }
 
 .list-info {
   margin: 0;
@@ -1736,11 +1748,14 @@ Back To Top Section
     .list-info li .info-icon {
       display: table-cell;
       font-size: 35px;
-      /*color: $color_primary;*/ }
+      color: #F694C1; }
     .list-info li .info-text {
       padding-left: 18px;
       display: table-cell;
       vertical-align: top; }
+    .list-info li h1, .list-info li h2, .list-info li h3, .list-info li h4, .list-info li .rs-team-1 .title, .rs-team-1 .list-info li .title, .list-info li h5 {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700; }
 
 /**
  * 7. - RESPONSIVE
