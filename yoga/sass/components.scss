@@ -134,10 +134,10 @@ SOSMED-ICON
 	 	a{
 	 		@include border-radius(50%);
 		    color: $white;
-		    background-color: $color_primary;
+		    background-color: $color_secondary;
 		    &:hover{
 	    		color: $white;
-		      	background-color: darken($color_primary, 20%);
+		      	background-color: $color_primary;
 		    }
 		}
 	}

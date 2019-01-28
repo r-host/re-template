@@ -174,10 +174,12 @@ strong, b{
 .subheading{
 	margin-top: -20px;
 	margin-bottom: 80px;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
 	color: #999;
+	&.text-center{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .bgi-cover-center{
