@@ -220,3 +220,35 @@ strong, b{
 .bg-gray{
 	background-color: #fbfbfb;
 }
+.bg-overlay-primary{
+	position: relative;
+	&:before{
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background-color: darken($color-primary, 20%);
+	    opacity: .8;
+    }
+}
+.bg-overlay-secondary{
+	position: relative;
+	&:before{
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background-color: $color-secondary;
+	    opacity: .8;
+    }
+}
+
+@media (max-width: 767px) {
+	.responsive-text-center{
+		text-align: center;
+	}
+}

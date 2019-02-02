@@ -1,8 +1,8 @@
 /*
-Template Name: Nock - Responsive HTML Template
-Template URI: http://rudhisasmito.com/demo/nock
-Author: rudhisasmito
-Author URI: https://themeforest.net/user/rudhisasmito
+Template Name: Re - Multi Purpose HTML Templates
+Template URI: http://rometheme.net/html/re
+Author: Rometheme
+Author URI: https://themeforest.net/user/rometheme
 Version: 1.0
 */
 /**
@@ -603,6 +603,10 @@ strong, b {
 .text-secondary {
   color: #E6E1C5 !important; }
 
+@media (max-width: 767px) {
+  .responsive-text-center {
+    text-align: center;
+    float: none !important; } }
 /**
  * 3. - COMPONENTS
  * -----------------------------------------------------------------------------
@@ -1552,7 +1556,8 @@ Back To Top Section
 
 @media (max-width: 767px) {
   .header-1 .navbar-main .navbar-brand {
-    position: relative; } }
+    position: relative;
+    top: 0; } }
 /**
  * 5. - SECTION
  * -----------------------------------------------------------------------------

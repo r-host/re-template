@@ -31,9 +31,8 @@
     width: 100%;
   }
   .supheading{
-    font-family: $font_tertiary;
     color: $color_primary;
-    font-size: 46px;
+    font-size: 33px;
     margin-bottom: -10px;
     &:before{
       content: '- ';
@@ -232,5 +231,5 @@
 
 .blockquote{
   font-family: $font_tertiary;
-  font-size: 24px;
+  font-size: 21px;
 }

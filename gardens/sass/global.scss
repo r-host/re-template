@@ -244,3 +244,9 @@ strong, b{
 .text-secondary{
 	color: $color_secondary !important;
 }
+@media (max-width: 767px) {
+	.responsive-text-center{
+		text-align: center;
+		float: none !important;
+	}
+}

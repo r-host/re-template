@@ -1,8 +1,8 @@
 /*
-Template Name: Nock - Responsive HTML Template
-Template URI: http://rudhisasmito.com/demo/nock
-Author: rudhisasmito
-Author URI: https://themeforest.net/user/rudhisasmito
+Template Name: Re - Multi Purpose HTML Templates
+Template URI: http://rometheme.net/html/re
+Author: Rometheme
+Author URI: https://themeforest.net/user/rometheme
 Version: 1.0
 */
 /**
@@ -560,9 +560,9 @@ strong, b {
     margin-right: auto; }
 
 .supheading {
-  font-family: "Alex Brush", cursive;
+  font-family: "Ubuntu", sans-serif;
   color: #a98970;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: -30px; }
   .supheading:before {
     content: '- '; }
@@ -1608,9 +1608,8 @@ Back To Top Section
     left: 0;
     width: 100%; }
   .banner .supheading {
-    font-family: "Alex Brush", cursive;
     color: #a98970;
-    font-size: 46px;
+    font-size: 33px;
     margin-bottom: -10px; }
     .banner .supheading:before {
       content: '- '; }
@@ -1780,8 +1779,8 @@ Back To Top Section
   100% {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); } }
 .blockquote {
-  font-family: "Alex Brush", cursive;
-  font-size: 24px; }
+  font-family: "Ubuntu", sans-serif;
+  font-size: 21px; }
 
 /**
  * 6. - FOOTER
