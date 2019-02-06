@@ -92,7 +92,7 @@ $(document).ready(function(){
         pagination: false,
         nav: true,
 		navText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
-		dots: false,
+		dots: true,
     }); 
 
 	/* =================================

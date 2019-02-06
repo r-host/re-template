@@ -1592,7 +1592,8 @@ Back To Top Section
     height: 100%; }
     .banner.owl-carousel div:not(.owl-controls) {
       height: 100%; }
-    .banner.owl-carousel .owl-controls .owl-nav {
+    .banner.owl-carousel .owl-controls .owl-nav,
+    .banner.owl-carousel .owl-controls .owl-dots {
       height: auto; }
     .banner.owl-carousel .owl-item img {
       display: none; }
@@ -1633,9 +1634,8 @@ Back To Top Section
       background-color: rgba(255, 255, 255, 0.5);
       padding: 20px;
       color: #222; }
-  @media (max-width: 767px) {
-    .banner h1 {
-      font-size: 42px; } }
+  .banner.owl-theme .owl-controls {
+    margin-top: 0; }
   .banner .owl-controls .owl-nav [class*=owl-] {
     color: #fff;
     font-size: 18px;
@@ -1665,6 +1665,23 @@ Back To Top Section
     .banner .owl-nav .owl-next {
       float: right;
       margin-right: 20px !important; }
+  .banner .owl-dots {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    bottom: 4%;
+    display: none !important; }
+    .banner .owl-dots .owl-dot span {
+      background: #fff !important; }
+    .banner .owl-dots .owl-dot.active span {
+      background: #a98970 !important; }
+  @media (max-width: 767px) {
+    .banner h1 {
+      font-size: 42px; }
+    .banner .owl-nav {
+      display: none; }
+    .banner .owl-dots {
+      display: block !important; } }
 
 .wrap-caption {
   width: 60%; }
@@ -1681,6 +1698,11 @@ Back To Top Section
     font-size: 18px; }
   .wrap-caption .btn, .wrap-caption .btn-primary, .wrap-caption .btn-secondary, .wrap-caption .btn-primary-darken.disabled, .wrap-caption .btn-light {
     margin-right: 15px; }
+  @media (max-width: 767px) {
+    .wrap-caption {
+      width: 100%; }
+      .wrap-caption.center, .wrap-caption.right {
+        width: 100%; } }
 
 .content-wrap {
   padding: 80px 0; }

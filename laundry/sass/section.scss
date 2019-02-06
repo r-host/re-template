@@ -9,7 +9,8 @@
     div:not(.owl-controls) {
       height: 100%;
     }
-    .owl-controls .owl-nav{
+    .owl-controls .owl-nav,
+    .owl-controls .owl-dots{
       height: auto;
     }
     .owl-item img{
@@ -54,9 +55,11 @@
     }
   }
 
-  @media (max-width: 767px) {
-    h1{
-      font-size: 42px;
+  
+
+  &.owl-theme{
+    .owl-controls{
+      margin-top: 0;
     }
   }
 
@@ -92,14 +95,43 @@
       margin-right: 20px !important;
     }
   }
+  .owl-dots{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    bottom: 4%;
+    display: none !important;
+
+    .owl-dot{
+      span{
+        background: $white !important;
+      }
+      &.active{
+         span{
+          background: $color-primary !important;
+        }
+      }
+    } 
+  }
+  @media (max-width: 767px) {
+    h1{
+      font-size: 42px;
+    }
+    .owl-nav{
+      display: none;
+    }
+    .owl-dots{
+      display: block !important;
+    }
+  }
 }
 
 .wrap-caption{
 	width: 50%;
 	&.center{
 		width: 80%;
-	    margin: 0 auto;
-	  	text-align: center;
+    margin: 0 auto;
+  	text-align: center;
 	}
   &.right{
     width: 50%;
@@ -113,6 +145,12 @@
 	.btn{
 		margin-right: 15px;
 	}
+  @media (max-width: 767px) {
+    width: 100%;
+   &.center, &.right{
+      width: 100%;
+    }
+  }
 }
 
 .content-wrap {
